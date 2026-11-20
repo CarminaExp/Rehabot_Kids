@@ -1,0 +1,19 @@
+
+<?xml version="1.0"?>
+<package format="3">
+  <name>rehabot_kids</name>
+  <version>0.0.1</version>
+  <description>Robot asistencial para acompañamiento y estimulacion cognitiva.</description>
+  <maintainer email="user@example.com">rehabot_kids</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>hri_client</exec_depend>
+  <exec_depend>simple_hri_interfaces</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
